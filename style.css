@@ -18,6 +18,20 @@
     cursor: pointer;
     text-decoration: none;
     color: black;
+    position: relative;
+}
+.lists:after{
+    content: "";
+    position: absolute;
+    background-color: #18373C;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: .3s;
+}
+.lists:hover::after{
+    width: 100%;
 }
 .webstore1{
     padding: .5rem;
@@ -176,6 +190,10 @@ span{
     border-radius: 2rem;
     color: #006F62;
     font-weight: bold;
+    transition: .3s;
+}
+.getstart:hover{
+    transform: scale(1.2);
 }
 .slider{
     height: 20rem;
@@ -208,4 +226,77 @@ span{
 .portfolio-div{
     position: relative;
     top: 3rem;
+}
+.contact{
+    background-color: #18373C;
+    margin-top: 4rem;
+    overflow-x: hidden;
+}
+.logo2{
+    height: 7rem;
+    padding-left: 8rem;
+}
+label{
+    color: white;
+}
+.contact-h2{
+    color: white;
+}
+textarea{
+    /* width: 24rem; */
+    height: 6rem;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+.send{
+    background-color: transparent;
+    padding: .5rem;
+    border: 1px solid #ffffff;
+    border-radius: 2rem;
+    color: #ffffff;
+    font-weight: bold;
+    transition: .3s;
+}
+.send:hover{
+    background-color: white;
+    color: #18373C;
+}
+input{
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.head-5{
+    color: white;
+}
+.social{
+    list-style-type: none;
+}
+.social-list{
+    height: 1rem;
+}
+.glass{
+    height: 4rem;
+    width: 11rem;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(226, 226, 226, 0.623);
+    border-radius: 1rem;
+    position: relative;
+    top: 3rem;
+    left: 2rem;
+}
+.glass-p{
+    font-size: .5rem;
+    font-weight: bold;
+}
+.glassplant{
+    height: 3rem;
+}
+.span-2{
+    color: red;
 }
