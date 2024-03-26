@@ -219,6 +219,7 @@ span{
 .stepdiv{
     display: flex;
     flex-wrap: wrap;
+    overflow-x: hidden;
 }
 .portfolio{
     max-height: 25rem;
@@ -299,4 +300,7 @@ input{
 }
 .span-2{
     color: red;
+}
+.project{
+    overflow-y: hidden;
 }
